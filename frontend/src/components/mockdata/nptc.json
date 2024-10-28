@@ -1,0 +1,605 @@
+{
+
+    "questions": [
+      {
+        "id": 1,
+        "subject": "General Awareness",
+        "question": "Who is the current Prime Minister of India?",
+        "options": {
+          "A": "Rahul Gandhi",
+          "B": "Narendra Modi",
+          "C": "Manmohan Singh",
+          "D": "Amit Shah"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 2,
+        "subject": "General Awareness",
+        "question": "Which is the largest continent in the world?",
+        "options": {
+          "A": "Africa",
+          "B": "Asia",
+          "C": "Europe",
+          "D": "North America"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 3,
+        "subject": "General Awareness",
+        "question": "The first Indian to receive the Bharat Ratna was:",
+        "options": {
+          "A": "Dr. S. Radhakrishnan",
+          "B": "C. Rajagopalachari",
+          "C": "Jawaharlal Nehru",
+          "D": "B. R. Ambedkar"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 4,
+        "subject": "General Awareness",
+        "question": "The national flower of India is:",
+        "options": {
+          "A": "Rose",
+          "B": "Lotus",
+          "C": "Jasmine",
+          "D": "Sunflower"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 5,
+        "subject": "General Awareness",
+        "question": "The capital of Australia is:",
+        "options": {
+          "A": "Sydney",
+          "B": "Canberra",
+          "C": "Melbourne",
+          "D": "Brisbane"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 6,
+        "subject": "Mathematics",
+        "question": "If 5x + 3 = 28, then x is:",
+        "options": {
+          "A": "4",
+          "B": "5",
+          "C": "6",
+          "D": "7"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 7,
+        "subject": "Mathematics",
+        "question": "What is the area of a triangle with a base of 10 cm and a height of 5 cm?",
+        "options": {
+          "A": "25 cm²",
+          "B": "30 cm²",
+          "C": "20 cm²",
+          "D": "15 cm²"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 8,
+        "subject": "Mathematics",
+        "question": "Simplify: 2(3x + 4) - 4x.",
+        "options": {
+          "A": "2x + 8",
+          "B": "6x + 8",
+          "C": "-2x + 8",
+          "D": "6x + 4"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 9,
+        "subject": "Mathematics",
+        "question": "What is 25% of 200?",
+        "options": {
+          "A": "25",
+          "B": "50",
+          "C": "75",
+          "D": "100"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 10,
+        "subject": "Mathematics",
+        "question": "Solve for x: 2x² - 8 = 0.",
+        "options": {
+          "A": "2",
+          "B": "4",
+          "C": "-4",
+          "D": "Both A and C"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 11,
+        "subject": "General Intelligence and Reasoning",
+        "question": "Which number will come next in the series: 2, 4, 8, 16, ?",
+        "options": {
+          "A": "20",
+          "B": "24",
+          "C": "32",
+          "D": "36"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 12,
+        "subject": "General Intelligence and Reasoning",
+        "question": "In a certain code language, 'COLD' is written as 'DPEM'. How is 'WARM' written in that code?",
+        "options": {
+          "A": "XBNQ",
+          "B": "XBNM",
+          "C": "XBMO",
+          "D": "XBRN"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 13,
+        "subject": "General Intelligence and Reasoning",
+        "question": "Find the missing number: 5, 11, 17, ?, 29.",
+        "options": {
+          "A": "21",
+          "B": "23",
+          "C": "25",
+          "D": "27"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 14,
+        "subject": "General Intelligence and Reasoning",
+        "question": "If A is coded as 1, B as 2, C as 3, and so on, what is the code for 'CAT'?",
+        "options": {
+          "A": "24",
+          "B": "30",
+          "C": "36",
+          "D": "18"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 15,
+        "subject": "General Intelligence and Reasoning",
+        "question": "What is the next number in the series: 3, 6, 11, 18, ?",
+        "options": {
+          "A": "25",
+          "B": "30",
+          "C": "35",
+          "D": "36"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 16,
+        "subject": "General Science",
+        "question": "Which gas is known as laughing gas?",
+        "options": {
+          "A": "Nitrous oxide",
+          "B": "Carbon dioxide",
+          "C": "Oxygen",
+          "D": "Nitrogen"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 17,
+        "subject": "General Science",
+        "question": "What is the chemical formula for water?",
+        "options": {
+          "A": "H2O",
+          "B": "CO2",
+          "C": "NaCl",
+          "D": "O2"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 18,
+        "subject": "General Science",
+        "question": "Which vitamin is known as the sunshine vitamin?",
+        "options": {
+          "A": "Vitamin A",
+          "B": "Vitamin C",
+          "C": "Vitamin D",
+          "D": "Vitamin E"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 19,
+        "subject": "General Science",
+        "question": "The process of conversion of solid directly into gas is called:",
+        "options": {
+          "A": "Sublimation",
+          "B": "Evaporation",
+          "C": "Condensation",
+          "D": "Fusion"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 20,
+        "subject": "General Science",
+        "question": "Which planet is known as the Red Planet?",
+        "options": {
+          "A": "Earth",
+          "B": "Venus",
+          "C": "Mars",
+          "D": "Jupiter"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 21,
+        "subject": "General Awareness",
+        "question": "Which Indian state is known as the 'Land of Five Rivers'?",
+        "options": {
+          "A": "Punjab",
+          "B": "Haryana",
+          "C": "Uttar Pradesh",
+          "D": "Madhya Pradesh"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 22,
+        "subject": "General Awareness",
+        "question": "Who wrote the National Anthem of India?",
+        "options": {
+          "A": "Rabindranath Tagore",
+          "B": "Bankim Chandra Chatterjee",
+          "C": "Lata Mangeshkar",
+          "D": "A. R. Rahman"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 23,
+        "subject": "General Awareness",
+        "question": "Which is the smallest state in India by area?",
+        "options": {
+          "A": "Goa",
+          "B": "Sikkim",
+          "C": "Tripura",
+          "D": "Manipur"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 24,
+        "subject": "General Awareness",
+        "question": "Which is the national animal of India?",
+        "options": {
+          "A": "Lion",
+          "B": "Tiger",
+          "C": "Elephant",
+          "D": "Peacock"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 25,
+        "subject": "General Awareness",
+        "question": "In which year did India gain independence?",
+        "options": {
+          "A": "1942",
+          "B": "1945",
+          "C": "1947",
+          "D": "1950"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 26,
+        "subject": "Mathematics",
+        "question": "What is the value of 12% of 250?",
+        "options": {
+          "A": "30",
+          "B": "35",
+          "C": "40",
+          "D": "45"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 27,
+        "subject": "Mathematics",
+        "question": "The average of five consecutive numbers is 20. What is the largest of these numbers?",
+        "options": {
+          "A": "22",
+          "B": "23",
+          "C": "24",
+          "D": "25"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 28,
+        "subject": "Mathematics",
+        "question": "If a train travels 60 km in 1 hour, how far will it travel in 2.5 hours?",
+        "options": {
+          "A": "120 km",
+          "B": "150 km",
+          "C": "180 km",
+          "D": "200 km"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 29,
+        "subject": "Mathematics",
+        "question": "What is the square root of 144?",
+        "options": {
+          "A": "10",
+          "B": "12",
+          "C": "14",
+          "D": "16"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 30,
+        "subject": "Mathematics",
+        "question": "If x = 5, what is the value of 3x + 7?",
+        "options": {
+          "A": "22",
+          "B": "25",
+          "C": "30",
+          "D": "35"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 31,
+        "subject": "General Intelligence and Reasoning",
+        "question": "Which of the following is a prime number?",
+        "options": {
+          "A": "4",
+          "B": "6",
+          "C": "7",
+          "D": "8"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 32,
+        "subject": "General Intelligence and Reasoning",
+        "question": "Which one of the following is the odd one out?",
+        "options": {
+          "A": "Circle",
+          "B": "Square",
+          "C": "Triangle",
+          "D": "Rectangle"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 33,
+        "subject": "General Intelligence and Reasoning",
+        "question": "A clock shows 3:15. What is the angle between the hour hand and the minute hand?",
+        "options": {
+          "A": "90 degrees",
+          "B": "75 degrees",
+          "C": "112.5 degrees",
+          "D": "135 degrees"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 34,
+        "subject": "General Intelligence and Reasoning",
+        "question": "If all roses are flowers and some flowers fade quickly, which of the following is true?",
+        "options": {
+          "A": "All roses fade quickly.",
+          "B": "Some roses fade quickly.",
+          "C": "No roses fade quickly.",
+          "D": "Some flowers are not roses."
+        },
+        "answer": "D"
+      },
+      {
+        "id": 35,
+        "subject": "General Science",
+        "question": "Which of the following is a renewable source of energy?",
+        "options": {
+          "A": "Coal",
+          "B": "Natural Gas",
+          "C": "Wind",
+          "D": "Nuclear"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 36,
+        "subject": "General Science",
+        "question": "What is the pH level of pure water?",
+        "options": {
+          "A": "5",
+          "B": "7",
+          "C": "9",
+          "D": "10"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 37,
+        "subject": "General Science",
+        "question": "Which of the following is a mammal?",
+        "options": {
+          "A": "Frog",
+          "B": "Snake",
+          "C": "Whale",
+          "D": "Lizard"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 38,
+        "subject": "General Science",
+        "question": "The basic unit of life is:",
+        "options": {
+          "A": "Atom",
+          "B": "Cell",
+          "C": "Molecule",
+          "D": "Tissue"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 39,
+        "subject": "General Science",
+        "question": "Which part of the plant conducts photosynthesis?",
+        "options": {
+          "A": "Roots",
+          "B": "Stem",
+          "C": "Leaves",
+          "D": "Flowers"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 40,
+        "subject": "General Science",
+        "question": "Which gas is essential for respiration?",
+        "options": {
+          "A": "Carbon Dioxide",
+          "B": "Nitrogen",
+          "C": "Oxygen",
+          "D": "Hydrogen"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 41,
+        "subject": "General Awareness",
+        "question": "Which of the following rivers is known as the 'Sorrow of Bihar'?",
+        "options": {
+          "A": "Ganga",
+          "B": "Kosi",
+          "C": "Yamuna",
+          "D": "Saraswati"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 42,
+        "subject": "General Awareness",
+        "question": "What is the currency of Japan?",
+        "options": {
+          "A": "Yen",
+          "B": "Won",
+          "C": "Dollar",
+          "D": "Rupee"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 43,
+        "subject": "General Awareness",
+        "question": "Who was the first woman President of India?",
+        "options": {
+          "A": "Pratibha Patil",
+          "B": "Indira Gandhi",
+          "C": "Sarojini Naidu",
+          "D": "Sonia Gandhi"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 44,
+        "subject": "General Awareness",
+        "question": "Which Indian state is famous for its backwaters?",
+        "options": {
+          "A": "Kerala",
+          "B": "Goa",
+          "C": "Punjab",
+          "D": "Uttar Pradesh"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 45,
+        "subject": "General Awareness",
+        "question": "Which is the largest ocean in the world?",
+        "options": {
+          "A": "Atlantic Ocean",
+          "B": "Indian Ocean",
+          "C": "Arctic Ocean",
+          "D": "Pacific Ocean"
+        },
+        "answer": "D"
+      },
+      {
+        "id": 46,
+        "subject": "Mathematics",
+        "question": "If a rectangle has a length of 10 cm and a breadth of 5 cm, what is its perimeter?",
+        "options": {
+          "A": "30 cm",
+          "B": "40 cm",
+          "C": "50 cm",
+          "D": "20 cm"
+        },
+        "answer": "B"
+      },
+      {
+        "id": 47,
+        "subject": "Mathematics",
+        "question": "What is 3/4 + 1/4?",
+        "options": {
+          "A": "1",
+          "B": "2/4",
+          "C": "1/2",
+          "D": "1/4"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 48,
+        "subject": "General Intelligence and Reasoning",
+        "question": "If today is Wednesday, what day will it be in 3 days?",
+        "options": {
+          "A": "Friday",
+          "B": "Saturday",
+          "C": "Sunday",
+          "D": "Monday"
+        },
+        "answer": "A"
+      },
+      {
+        "id": 49,
+        "subject": "General Intelligence and Reasoning",
+        "question": "Which number comes next in the series 2, 4, 8, 16?",
+        "options": {
+          "A": "20",
+          "B": "24",
+          "C": "32",
+          "D": "36"
+        },
+        "answer": "C"
+      },
+      {
+        "id": 50,
+        "subject": "General Intelligence and Reasoning",
+        "question": "How many sides does a hexagon have?",
+        "options": {
+          "A": "4",
+          "B": "5",
+          "C": "6",
+          "D": "7"
+        },
+        "answer": "C"
+      }
+    ]
+  }
