@@ -1,6 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { CircularProgressbar } from 'react-circular-progressbar';
-import 'react-circular-progressbar/dist/styles.css';
 import { FaBullseye, FaTimes, FaExclamationCircle } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 
