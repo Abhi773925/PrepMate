@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { CircularProgressbar } from 'react-circular-progressbar';
+// import { CircularProgressbar } from 'react-circular-progressbar';
 import { FaBullseye, FaTimes, FaExclamationCircle } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 
@@ -66,7 +66,7 @@ const TestAnalysis = ({ questions, userAnswers, score, accuracy, lessonName, cou
         <div className="mb-8 flex flex-col items-center">
           <h3 className="text-lg font-semibold text-center mb-2">Overall Score</h3>
           <div style={{ width: 120, height: 120 }}>
-            <CircularProgressbar
+            {/* <CircularProgressbar
               value={scorePercentage}
               text={`${score}/${questions.length}`}
               styles={{
@@ -74,7 +74,7 @@ const TestAnalysis = ({ questions, userAnswers, score, accuracy, lessonName, cou
                 trail: { stroke: '#4b5563' },
                 text: { fill: '#fff', fontSize: '16px', fontWeight: 'bold' },
               }}
-            />
+            /> */}
           </div>
           <p className="text-center text-lg font-semibold">{scorePercentage.toFixed(2)}%</p>
         </div>
