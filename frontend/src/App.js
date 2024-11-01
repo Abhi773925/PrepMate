@@ -15,6 +15,9 @@ import MotionWrapper from "./animations/MotionWrapper"; // Import MotionWrapper
 import MyLearning from './components/enrollment/MyLearning';
 import Accuracy from "./components/enrollment/Accuracy";
 import Testimonials from './components/homepage/Testimonials';
+import Footer from './components/homepage/Footer';
+import Faq from './components/homepage/Faq';
+import FaqQuestion from './components/homepage/FaqQuestion';
 function App() {
   const location = useLocation(); // Get the current location
 
@@ -28,7 +31,10 @@ function App() {
           
               <HeroSection />
               <FeaturedCourses />
+              <Faq/>
               <Testimonials/>
+              <Footer/>
+              
             </>
           } />
           <Route path="/apple" element={<Accuracy />} />
@@ -44,6 +50,10 @@ function App() {
           <Route path='/courses' element={<FeaturedCourses />} />
           <Route path='/my-learning' element={<MyLearning/>}/>
           <Route path="/courses/test-series/:courseId" element={<MockTestSeries />} />
+          <Route path='/faq' element={<FaqQuestion/>}/>
+          <Route path='/contact' element={<FaqQuestion/>}/>
+          <Route path='/testimonials'  element={<Testimonials/>}/>
+       
 
         </Routes>
       </MotionWrapper>

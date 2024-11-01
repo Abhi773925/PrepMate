@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaUser, FaEnvelope, FaLock, FaSignInAlt } from 'react-icons/fa';
-import signup from "../../assets/signup.jpg";
+import { FaBookOpen, FaCalendarAlt, FaRocket } from "react-icons/fa";
+
 export default function SignUp() {
   const [formData, setFormData] = useState({
     name: '',
@@ -10,6 +11,14 @@ export default function SignUp() {
     agreeTerms: false,
   });
 
+  const Card = ({ children, className }) => (
+    <div
+      className={`relative overflow-hidden rounded-2xl bg-[#141414] p-6 ${className}`}
+    >
+      {children}
+    </div>
+  );
+  
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(null);
 
@@ -35,7 +44,7 @@ export default function SignUp() {
       const response = await fetch('http://localhost:5000/api/mocktests/signupdetails', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
         },
         body: JSON.stringify(formData),
       });
@@ -55,45 +64,49 @@ export default function SignUp() {
   };
 
   return (
-    <div className="flex min-h-screen bg-[#0d0c0a] text-white">
-      <div className="hidden md:block md:w-1/2 relative h-auto w-auto z-30">
-        <img
-          src=".//sd"
-          alt="Educational Background"
-          className="absolute inset-0 w-full h-full object-cover opacity-80"
-        />
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-12 text-white">
-          <h2 className="text-4xl font-bold mb-4">Join Our Learning Community</h2>
-          <p className="text-lg mb-8">
-            Unlock your potential with our comprehensive courses and resources.
-          </p>
-          <div className="flex space-x-4">
-            <div className="flex items-center space-x-2">
-              <svg className="h-6 w-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-              </svg>
-              <span>Expert Instructors</span>
+    <div className="flex flex-col lg:flex-row min-h-screen bg-[#0a0a0a]">
+      <div className="w-full lg:w-1/2 space-y-6 p-4 flex justify-center items-center flex-col">
+        <Card>
+          <div className="flex items-center gap-4">
+            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#0a0a0a]">
+              <FaBookOpen className="h-6 w-6 text-[#6366F1]" />
             </div>
-            <div className="flex items-center space-x-2">
-              <svg className="h-6 w-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-              <span>Flexible Learning</span>
-            </div>
+            <h2 className="text-lg font-semibold text-[#6366F1]">
+              Learn: Access 100+ Courses
+            </h2>
           </div>
-        </div>
+        </Card>
+
+        <Card>
+          <div className="flex items-center gap-4">
+            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#EC4899]/20">
+              <FaCalendarAlt className="h-6 w-6 text-[#EC4899]" />
+            </div>
+            <h2 className="text-lg font-semibold text-[#EC4899]">
+              Apply: Build, Play, Create
+            </h2>
+          </div>
+        </Card>
+
+        <Card>
+          <div className="flex items-center gap-4">
+            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#10B981]/20">
+              <FaRocket className="h-6 w-6 text-[#10B981]" />
+            </div>
+            <h2 className="text-lg font-semibold text-[#10B981]">
+              Grow: Elevate Your Career
+            </h2>
+          </div>
+        </Card>
       </div>
-
-      <div className="flex text-white flex-col justify-center p-8 md:w-1/2">
-        <div className="mx-auto w-full max-w-md p-8 bg-gray-800 bg-opacity-70 rounded-lg shadow-lg">
-          <h1 className="text-3xl font-bold mb-2">Create Your Account</h1>
-          <p className="mb-8">Start your learning journey with us!</p>
-
+      {/* Right Side - SignUp Form */}
+      <div className="w-full lg:w-1/2 flex items-center justify-center bg-[#0a0a0a] p-4 rounded-2xl">
+        <div className="bg-[#141414] bg-opacity-90 p-8 rounded-lg shadow-lg w-full max-w-md rounded-2xl">
+          <h1 className="text-2xl font-bold mb-4 text-center text-white">Sign Up</h1>
           {error && <p className="text-red-500 mb-4">{error}</p>}
           {success && <p className="text-green-500 mb-4">{success}</p>}
-
           <form onSubmit={handleSubmit} className="space-y-4">
-            <div className="flex items-center border border-gray-300 rounded-md transition duration-300 focus-within:ring-2 focus-within:ring-blue-500">
+            <div className="flex items-center border border-gray-300 rounded-md">
               <FaUser className="text-gray-400 p-2" />
               <input
                 type="text"
@@ -105,7 +118,7 @@ export default function SignUp() {
                 className="flex-1 p-2 bg-transparent focus:outline-none text-white placeholder-gray-400"
               />
             </div>
-            <div className="flex items-center border border-gray-300 rounded-md transition duration-300 focus-within:ring-2 focus-within:ring-blue-500">
+            <div className="flex items-center border border-gray-300 rounded-md">
               <FaUser className="text-gray-400 p-2" />
               <input
                 type="text"
@@ -117,7 +130,7 @@ export default function SignUp() {
                 className="flex-1 p-2 bg-transparent focus:outline-none text-white placeholder-gray-400"
               />
             </div>
-            <div className="flex items-center border border-gray-300 rounded-md transition duration-300 focus-within:ring-2 focus-within:ring-blue-500">
+            <div className="flex items-center border border-gray-300 rounded-md">
               <FaEnvelope className="text-gray-400 p-2" />
               <input
                 type="email"
@@ -129,7 +142,7 @@ export default function SignUp() {
                 className="flex-1 p-2 bg-transparent focus:outline-none text-white placeholder-gray-400"
               />
             </div>
-            <div className="flex items-center border border-gray-300 rounded-md transition duration-300 focus-within:ring-2 focus-within:ring-blue-500">
+            <div className="flex items-center border border-gray-300 rounded-md">
               <FaLock className="text-gray-400 p-2" />
               <input
                 type="password"
@@ -153,11 +166,15 @@ export default function SignUp() {
             </div>
             <button
               type="submit"
-              className="w-full flex justify-center items-center py-2 px-4 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-300 transform hover:scale-105"
+              className="w-full flex justify-center items-center py-2 px-4 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-300"
             >
               <FaSignInAlt className="mr-2" />
               Sign Up
             </button>
+            <p className="text-center mt-4">
+              Already have an account? 
+              <a href="/login" className="text-blue-500 hover:underline"> Login here</a>
+            </p>
           </form>
         </div>
       </div>
